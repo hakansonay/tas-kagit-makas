@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Taş Kağıt Makas</title>
+</head>
+<body>
+    <header>
+        <h1>Taş Kağıt Makas</h1>
+    </header>
+    <div class="game">
+        <div class="pc">
+            <p>Bilgisayar Seçimi</p>
+            <div class="pc-buttons">
+                <i class="em em-facepunch"></i>
+                <i class="em em-hand"></i>
+                <i class="em em-spock-hand"></i>                
+            </div>
+        </div>
+            <div class="robot" id="robot-secim"></div>
+        <div class="buttons">
+            <button onClick="robotSecimi('taş')">
+                <i class="em em-facepunch"></i>
+            </button>
+            <button onClick="robotSecimi('kağıt')">
+                <i class="em em-hand"></i>
+            </button>
+            <button onClick="robotSecimi('makas')">
+                <i class="em em-spock-hand"></i>                
+            </button>
+        </div>
+        <p id="kazanma-durumu"></p>
+    </div>
+</body>
+</html>

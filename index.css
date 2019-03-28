@@ -1,0 +1,96 @@
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+h1{
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.pc{
+    text-align: left
+}
+
+body{
+    background-color: #F5F5F5
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.pc-buttons{
+    width: 30rem;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pc-buttons :nth-child(1) {
+    border: 4px solid #6d6d6d;
+    width: 20rem;
+    border-radius: 4rem;
+}
+
+.pc-buttons :nth-child(2) {
+    border: 4px solid #6d6d6d; 
+    width: 20rem;
+    border-radius: 4rem;
+}
+
+.pc-buttons :nth-child(3) {
+    border: 4px solid #6d6d6d;
+    width: 20rem;
+    border-radius: 4rem;
+}
+
+.game button{
+    width: 14rem;
+    font-size: 4rem;
+    background: none;
+    outline: none;
+    border: 4px solid #6d6d6d;
+    border-radius: 4rem;
+}
+
+.buttons :focus  {
+    background-color: rgb(202, 202, 202)
+}
+
+.buttons :hover{
+    background-color: #A1A1A1 
+}
+
+.robot{
+    background-color: rgb(202, 202, 202);
+    border: 4px solid #6d6d6d;
+    width: 14rem;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center,
+}
+
+#robot-secim{
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+#kazanma-durumu{
+    font-size: 2.2rem;
+    margin-top: 0.4rem 
+}
